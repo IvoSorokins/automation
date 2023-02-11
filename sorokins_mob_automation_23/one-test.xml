@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="One Test Suite">
+    <test name="One-Text Test">
+        <parameter name="udid" value="emulator-5554"/>
+        <groups>
+            <run>
+                <include name="TC1"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="Tasks">
+                <methods>
+                    <include name="screens.LoginScreen"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+
+
+

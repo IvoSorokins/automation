@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Ignore Two Tests Suite">
+    <test name="Ignore Two Tests">
+        <classes>
+            <class name="Tasks">
+                <methods>
+                    <exclude name="LogOut"/>
+                    <exclude name="SignUp"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
